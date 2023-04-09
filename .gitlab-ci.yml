@@ -1,0 +1,5 @@
+include:
+  - remote: https://git.meetsocial.cn/vanestone.shi/sino-cicd-template/-/raw/master/templates/.sino-depoly.yml
+
+sino-deploy:
+  extends: .sino-deploy

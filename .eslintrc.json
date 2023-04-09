@@ -1,0 +1,28 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
+  "extends": [
+    "prettier",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "overrides": [],
+  "settings": {
+    "react": {
+      "version": "17.0.2"
+    },
+    "typescript": {
+      "directory": "./tsconfig.json"
+    }
+  },
+  "rules": {
+    "react/no-unescaped-entities": 0,
+    "@typescript-eslint/ban-ts-comment": 0
+  }
+}

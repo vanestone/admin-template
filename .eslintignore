@@ -1,0 +1,14 @@
+node_modules/*
+dist/*
+public/*
+types/*
+webpack/*
+webpack.config.js
+
+**/*.svg
+**/*.yml
+
+package.json
+yarn.lock
+yarn-error.log
+tsconfig.json
